@@ -1,0 +1,25 @@
+{
+  "name": "enso-site",
+  "version": "1.0.0",
+  "description": "This is a modern, responsive, static website generated from your ENSO pitch content.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jibin892/enso_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jibin892/enso_website/issues"
+  },
+  "homepage": "https://github.com/jibin892/enso_website#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
