@@ -104,3 +104,74 @@ body{
   .panel, .feature, .tl-item{ background:#fff; border-color:#e7e7f1 }
   .btn-ghost{ border-color:#e7e7f1 }
 }
+
+/* Desktop nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: var(--bg-soft);
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+/* Desktop links */
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Mobile hamburger hidden by default */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* show hamburger */
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--bg);
+    padding: 1rem;
+    border-top: 1px solid var(--muted);
+    text-align: center;
+  }
+
+  .nav-links.show {
+    display: flex; /* slide menu open */
+    animation: slideDown 0.3s ease;
+  }
+
+  .nav-links a {
+    padding: 12px 0;
+    display: block;
+  }
+}
+
+/* Slide down animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
