@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c7af6b"/>
+      <stop offset="1" stop-color="#00c2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="340" rx="16" fill="#0f0f17"/>
+  <g fill="#121226" stroke="rgba(255,255,255,0.08)">
+    <rect x="40" y="40" width="280" height="110" rx="12"/>
+    <rect x="360" y="40" width="280" height="110" rx="12"/>
+    <rect x="680" y="40" width="280" height="110" rx="12"/>
+    <rect x="360" y="190" width="280" height="110" rx="12"/>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial" fill="#eaeaf2" font-size="18" text-anchor="middle">
+    <text x="180" y="100">Invoice</text>
+    <text x="500" y="100">Verification & Payment</text>
+    <text x="820" y="100">Receipt</text>
+    <text x="500" y="250">Analytics & Delivery</text>
+  </g>
+  <g stroke="url(#edge)" stroke-width="4" fill="none">
+    <path d="M320 95 C 340 95, 350 95, 360 95" />
+    <path d="M640 95 C 660 95, 670 95, 680 95" />
+    <path d="M820 150 C 820 170, 820 180, 640 200" />
+    <path d="M360 200 C 260 180, 120 160, 120 120 C 120 110, 128 102, 140 95" />
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6c5ce7"/>
+      <stop offset="1" stop-color="#00c2ff"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(0,0,0,0.4)"/></filter>
+  </defs>
+  <rect width="1200" height="540" rx="16" fill="#0f0f17"/>
+  <g fill="#121226" stroke="rgba(255,255,255,0.08)" filter="url(#shadow)">
+    <rect x="60" y="100" width="300" height="160" rx="14"/>
+    <rect x="450" y="100" width="300" height="160" rx="14"/>
+    <rect x="840" y="100" width="300" height="160" rx="14"/>
+    <rect x="260" y="320" width="680" height="120" rx="14"/>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial" fill="#eaeaf2" font-size="20" text-anchor="middle">
+    <text x="210" y="180">Personal App</text>
+    <text x="600" y="180">Business App</text>
+    <text x="990" y="180">Employee/Delivery</text>
+    <text x="600" y="390">Reports & Analytics</text>
+  </g>
+  <g stroke="url(#lg)" stroke-width="4" fill="none">
+    <path d="M360 180 C 400 180, 420 180, 450 180" />
+    <path d="M750 180 C 800 180, 820 180, 840 180" />
+    <path d="M600 260 C 600 300, 600 300, 600 320" />
+    <path d="M450 260 C 450 300, 450 300, 450 320" />
+    <path d="M840 260 C 840 300, 840 300, 840 320" />
+  </g>
+</svg>
